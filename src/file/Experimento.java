@@ -39,7 +39,6 @@ public class Experimento {
 
     // Busca aleatória banco
     public void ObterIndexRadom() {
-        // http://www.guj.com.br/t/como-pegar-um-elemento-random-de-um-arraylist/49294
         List<Coordenada> list = mdb.list();
             Collections.shuffle(list);                   
             System.out.println("Coordenadas aleatorias: " +list + "\n");
